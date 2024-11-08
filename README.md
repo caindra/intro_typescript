@@ -1,6 +1,6 @@
 # 📘 Learning TypeScript from Scratch 🚀
 
-Welcome to my repository of TypeScript practices! Here, you'll find exercises and basic examples that cover essential TypeScript concepts and techniques. This repo is designed for anyone looking to learn and apply TypeScript practically.
+Welcome to my repository of TypeScript practices! Here, you'll find exercises and basic examples that cover essential TypeScript concepts and techniques. This repo is designed for anyone looking to learn and apply TypeScript practically. The exercises you'll find on the repository are from Fernando Herrera's course as part of the way to learn Angular. But first things first, let's start with TypeScript!
 
 ## 🧩 Contents
 
@@ -39,4 +39,20 @@ All contributions are welcome! If you find any issues or have ideas for improvem
 
 👩‍💻 Let’s keep leveling up our programming skills together! The TypeScript journey begins now! 🌟
 
+* This project was created using Vite
 
+## Create a project using Vite
+
+1. Create the project:
+   ```bash
+   npm create vite
+   -- write your project\'s name, now choose a framework, which in my case was 'Vanilla', and a variant, whichc for me was 'TypeScript'
+
+2. Access to the project directory on your terminal and install all needed packages:
+    ```bash
+    cd <your-projects-name>
+    npm install
+
+3. Run npm on dev:
+    ```bash
+    npm run dev 
