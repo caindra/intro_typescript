@@ -50,4 +50,12 @@ const { song:anotherSong, songDuration:duration, details } = audioPlayer;
 const {author} = details;
 */
 
+// Desestructuración de arrays:
+
+const tloz: string[] = ['Link', 'Zelda', 'Ganondorf'];
+const [ p1, p2, p3 = 'Ganon' ]: string[] = ['Link', 'Zelda', 'Ganondorf'];
+
+console.error(`Personaje 3: ${tloz[2]}`);
+console.error(`Personaje 1: ${p1}`);
+
 export {};
